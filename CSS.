@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #EEEBE5; /* Soft Cream */
+    color: #1F1F1F; /* Black text */
+}
+
+/* Navbar */
+.navbar {
+    background: #522508; /* Dark Brown */
+}
+.nav-link,
+.navbar-brand {
+    color: #E8A0B8 !important; /* Soft Blush Pink */
+}
+.nav-link:hover {
+    color: #85462F !important; /* Warm Brown */
+}
+
+/* Header */
+.header {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.header .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(82, 37, 8, 0.5); /* Dark Brown overlay with transparency */
+}
+.header .description {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #1F1F1F; /* Black text */
+    text-align: center;
+}
+.header .description h1 {
+    color: #85462F; /* Warm Brown */
+}
+.header .description p {
+    font-size: 1.2rem;
+}
+
+/* Features Section */
+.features {
+    margin: 4em auto;
+    padding: 1em;
+}
+.feature-title {
+    color: #522508; /* Dark Brown */
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.features img {
+    width: 100%;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    margin-bottom: 10px;
+}
+
+/* Team Section */
+.team .card {
+    background: none;
+    border: none;
+    margin-bottom: 20px;
+}
+.team .card-title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #85462F; /* Warm Brown */
+}
+
+/* Footer */
+.page-footer {
+    background-color: #522508; /* Dark Brown */
+    color: #E8A0B8; /* Soft Blush Pink */
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #1F1F1F; /* Black */
+    padding: 20px 0;
+}
+
+/* Responsive */
+@media (max-width: 575.98px) {
+    .header .description {
+        left: 0;
+        top: 20%;
+        transform: none;
+        padding: 0 15px;
+    }
+    .header .description h1 {
+        font-size: 2rem;
+    }
+    .header .description p {
+        font-size: 1rem;
+    }
+}
+.features {
+  margin: 4em auto;
+  padding: 1em;
+}
+
+.feature-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.features img {
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+  margin-bottom: 16px;
+}
+
+.features .form-control,
+.features input {
+  border-radius: 0;
+}
+
+.features .btn {
+  background-color: #589b37;
+  border: 1px solid #589b37;
+  color: #fff;
+}
+
+.features .btn:hover {
+  background-color: #333;
+  border-color: #333;
+}
+
+/* TEAM SECTION */
+.background {
+  background: #dedec8;
+  padding: 4em 0;
+}
+
+.team .card {
+  background: none;
+  border: none;
+}
+
+.team .card-title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+/* FOOTER */
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 575.98px) {
+  .features {
+    margin: 0;
+  }
+}
+
+
